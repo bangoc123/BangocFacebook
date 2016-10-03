@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4A0CED51DA0BC8800B7C6ED /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0CED41DA0BC8800B7C6ED /* CustomCell.swift */; };
+		F4C108D21DA0B6A60029BE09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C108D11DA0B6A60029BE09 /* AppDelegate.swift */; };
+		F4C108D41DA0B6A60029BE09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C108D31DA0B6A60029BE09 /* ViewController.swift */; };
+		F4C108D91DA0B6A60029BE09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C108D81DA0B6A60029BE09 /* Assets.xcassets */; };
+		F4C108DC1DA0B6A60029BE09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C108DA1DA0B6A60029BE09 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4A0CED41DA0BC8800B7C6ED /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		F4C108CE1DA0B6A60029BE09 /* BangocFacebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BangocFacebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C108D11DA0B6A60029BE09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4C108D31DA0B6A60029BE09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4C108D81DA0B6A60029BE09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4C108DB1DA0B6A60029BE09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4C108DD1DA0B6A60029BE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4C108CB1DA0B6A60029BE09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4C108C51DA0B6A60029BE09 = {
+			isa = PBXGroup;
+			children = (
+				F4C108D01DA0B6A60029BE09 /* BangocFacebook */,
+				F4C108CF1DA0B6A60029BE09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4C108CF1DA0B6A60029BE09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4C108CE1DA0B6A60029BE09 /* BangocFacebook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4C108D01DA0B6A60029BE09 /* BangocFacebook */ = {
+			isa = PBXGroup;
+			children = (
+				F4C108D11DA0B6A60029BE09 /* AppDelegate.swift */,
+				F4C108D31DA0B6A60029BE09 /* ViewController.swift */,
+				F4C108D81DA0B6A60029BE09 /* Assets.xcassets */,
+				F4C108DA1DA0B6A60029BE09 /* LaunchScreen.storyboard */,
+				F4C108DD1DA0B6A60029BE09 /* Info.plist */,
+				F4A0CED41DA0BC8800B7C6ED /* CustomCell.swift */,
+			);
+			path = BangocFacebook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4C108CD1DA0B6A60029BE09 /* BangocFacebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C108E01DA0B6A60029BE09 /* Build configuration list for PBXNativeTarget "BangocFacebook" */;
+			buildPhases = (
+				F4C108CA1DA0B6A60029BE09 /* Sources */,
+				F4C108CB1DA0B6A60029BE09 /* Frameworks */,
+				F4C108CC1DA0B6A60029BE09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BangocFacebook;
+			productName = BangocFacebook;
+			productReference = F4C108CE1DA0B6A60029BE09 /* BangocFacebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4C108C61DA0B6A60029BE09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GDG;
+				TargetAttributes = {
+					F4C108CD1DA0B6A60029BE09 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F4C108C91DA0B6A60029BE09 /* Build configuration list for PBXProject "BangocFacebook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4C108C51DA0B6A60029BE09;
+			productRefGroup = F4C108CF1DA0B6A60029BE09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4C108CD1DA0B6A60029BE09 /* BangocFacebook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4C108CC1DA0B6A60029BE09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C108DC1DA0B6A60029BE09 /* LaunchScreen.storyboard in Resources */,
+				F4C108D91DA0B6A60029BE09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4C108CA1DA0B6A60029BE09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C108D41DA0B6A60029BE09 /* ViewController.swift in Sources */,
+				F4A0CED51DA0BC8800B7C6ED /* CustomCell.swift in Sources */,
+				F4C108D21DA0B6A60029BE09 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4C108DA1DA0B6A60029BE09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C108DB1DA0B6A60029BE09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4C108DE1DA0B6A60029BE09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4C108DF1DA0B6A60029BE09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4C108E11DA0B6A60029BE09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BangocFacebook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdg.demo.BangocFacebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4C108E21DA0B6A60029BE09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BangocFacebook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdg.demo.BangocFacebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4C108C91DA0B6A60029BE09 /* Build configuration list for PBXProject "BangocFacebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C108DE1DA0B6A60029BE09 /* Debug */,
+				F4C108DF1DA0B6A60029BE09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C108E01DA0B6A60029BE09 /* Build configuration list for PBXNativeTarget "BangocFacebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C108E11DA0B6A60029BE09 /* Debug */,
+				F4C108E21DA0B6A60029BE09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4C108C61DA0B6A60029BE09 /* Project object */;
+}
